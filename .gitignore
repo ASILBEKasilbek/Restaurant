@@ -1,0 +1,44 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+staticfiles/
+media/
+
+# Virtual environment
+venv/
+ENV/
+*.env
+
+# Database
+*.sqlite3
+*.db
+
+# Django Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+dist/
+build/
+
+# Cache
+*.cache
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
